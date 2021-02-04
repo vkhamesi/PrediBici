@@ -22,4 +22,17 @@ The following image shows Ecobici stations in Mexico City :
 <img src="https://github.com/vkhamesi/PrediBici/blob/main/citystations.png" width="100%">
 
 This is what raw data looks like as a CSV file :
-<img src="https://github.com/vkhamesi/PrediBici/blob/main/citystations.png" width="40%">
+```
+F;32;11584;452;01/07/2019;0:01:35;312;01/07/2019;0:29:28
+M;19;10219;136;01/07/2019;0:02:47;133;01/07/2019;0:13:35
+M;28;11496;180;01/07/2019;0:02:54;348;01/07/2019;0:13:58
+M;44;11948;181;01/07/2019;0:03:01;291;01/07/2019;0:39:25
+M;24;8112;18;01/07/2019;0:04:45;111;01/07/2019;0:17:33
+```
+
+By processing these data, we can trace the evolution of the number of bikes in a given station on a given day, and compute moving averages to smooth the evolution. The x-axis is in unit of time, and the total duration is from midnight to midnight. 
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/timeseries.png" width="100%">
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/movingaverages.png" width="100%">
+
+Finally, we tried to predict the evolution of bikes within a station. These predictions rely on parameters (especially for the ARIMA model, check https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average for more details).
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/predictions.png" width="100%">
