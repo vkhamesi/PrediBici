@@ -1,3 +1,3 @@
 # PrediBici
-<b≥ ahaha </b>
+<b> ahaha </b>
 ahah
