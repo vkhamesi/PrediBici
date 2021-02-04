@@ -32,8 +32,8 @@ M;24;8112;18;01/07/2019;0:04:45;111;01/07/2019;0:17:33
 ```
 
 By processing these data, we can trace the evolution of the number of bikes in a given station on a given day, and compute moving averages to smooth the evolution. The x-axis is in unit of time, and the total duration is from midnight to midnight. 
-<img src="https://github.com/vkhamesi/PrediBici/blob/main/timeseries.png" width="60%">
-<img src="https://github.com/vkhamesi/PrediBici/blob/main/movingaverages.png" width="70%">
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/timeseries.png" width="60%" class="center">
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/movingaverages.png" width="70%" class="center">
 
 Finally, we tried to predict the evolution of bikes within a station. These predictions rely on parameters (especially for the ARIMA model, check https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average for more details).
-<img src="https://github.com/vkhamesi/PrediBici/blob/main/predictions.png" width="70%">
+<img src="https://github.com/vkhamesi/PrediBici/blob/main/predictions.png" width="70%" class="center">
