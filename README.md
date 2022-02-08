@@ -1,4 +1,4 @@
-# PrediBici
+# PrediBici (2019)
 Project carried out as part of an innovation week at École Centrale de Lyon.
 
 This educational project focused on the ergonomics of deploying a network of self-service bicycles in Mexico City. The idea developed here is to retrieve raw data available in open source as CSV files on the website <a href="url">https://www.ecobici.cdmx.gob.mx</a>, then to exploit them. 
